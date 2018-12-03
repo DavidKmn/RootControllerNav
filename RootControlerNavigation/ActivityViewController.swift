@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ActivityViewController.swift
 //  RootControlerNavigation
 //
 //  Created by David on 17/10/2018.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ActivityViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor.lightGray
+        title = "Activity"
     }
-
-
 }
-
